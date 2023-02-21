@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.modal{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    img{
+        margin: .5rem 0 ;
+    }
+    p{
+        margin: .5rem 0;
+    }
+    button{
+        padding: 1rem 2rem;
+        margin: .5rem 0;
+        font-size: xx-large;
+    }
+}
+.sual{
+    height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: xx-large;
+    }
+    button{
+        padding: 1rem 2rem;
+        margin: .5rem 0;
+        font-size: xx-large;
+    }
+}
+.hidden{
+    display: none;
+}
